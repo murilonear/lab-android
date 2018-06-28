@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94bd31"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginEnd="18dp"
+        android:text="Preço Gasolina"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#415C00" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/botaoVerificarId"
+        android:layout_marginTop="152dp"
+        android:text="Preço Álcool"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#415C00" />
+
+    <EditText
+        android:id="@+id/precoAlcoolId"
+        android:layout_width="149dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="213dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:padding="@dimen/padding_caixa_texto" />
+
+    <EditText
+        android:id="@+id/precoGasolinaId"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/precoAlcoolId"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:padding="@dimen/padding_caixa_texto" />
+
+    <Button
+        android:id="@+id/botaoVerificarId"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:text="@string/texto_botao_verificar" />
+
+    <TextView
+        android:id="@+id/textoResultadoId"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#415C00" />
+
+</RelativeLayout>
