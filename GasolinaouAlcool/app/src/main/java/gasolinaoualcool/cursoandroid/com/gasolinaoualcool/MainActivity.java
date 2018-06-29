@@ -1,4 +1,4 @@
-package gasolinaoualcool.cursoandroid.com.gasolinaoualcool;
+﻿package gasolinaoualcool.cursoandroid.com.gasolinaoualcool;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
         precoAlcool = findViewById(R.id.precoAlcoolId);
         precoGasolina = findViewById(R.id.precoGasolinaId);
