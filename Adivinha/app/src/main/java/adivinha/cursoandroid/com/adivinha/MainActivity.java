@@ -1,4 +1,4 @@
-package adivinha.cursoandroid.com.adivinha;
+﻿package adivinha.cursoandroid.com.adivinha;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
         botaoJogar = findViewById(R.id.botaoJogarId);
         textoResultado = findViewById(R.id.resultadoId);
