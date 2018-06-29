@@ -1,1 +1,1 @@
-Exemplo de ciclo de vida das activitys
+Exemplo de ciclo de vida das activitys.
