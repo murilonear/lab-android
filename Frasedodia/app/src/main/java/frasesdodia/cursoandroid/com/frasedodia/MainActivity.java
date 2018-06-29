@@ -1,4 +1,4 @@
-package frasesdodia.cursoandroid.com.frasedodia;
+﻿package frasesdodia.cursoandroid.com.frasedodia;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
         textoNovaFrase = findViewById(R.id.textoNovaFraseId);
         botaoNovaFrase = findViewById(R.id.botaoNovaFraseId);
