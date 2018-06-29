@@ -1,0 +1,1 @@
+Exemplo para entender como fazer a transferencia de dados de uma activity para outra.
