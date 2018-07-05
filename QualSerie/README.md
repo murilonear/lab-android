@@ -1,0 +1,1 @@
+#App 8 - QualSerie - App que se responde o quanto gosta de séries. ( App que a partir das mudanças em uma SeekBar que vai de pouco a muito, vai mudando a imagem dinamicamente de acordo com a resposta.)

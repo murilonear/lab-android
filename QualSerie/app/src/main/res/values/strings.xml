@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QualSerie</string>
+    <string name="texto_pouco">Pouco</string>
+    <string name="texto_muito">Muito</string>
+</resources>
