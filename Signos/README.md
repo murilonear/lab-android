@@ -1,0 +1,1 @@
+#App 07 - Signos - App que ao clicar no seu signo, aparece uma breve descrição do perfil.
