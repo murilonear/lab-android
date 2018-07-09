@@ -1,0 +1,1 @@
+#App 10 - Preferencia de cores - Pega a preferência de cor do usuário para o background, altera o background e salva a escolha do usuário. Ao abrir o app novamente, abre com o background escolhido pelo usuário.

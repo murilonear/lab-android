@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/texto_titulo"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:background="@android:color/background_light"
+        android:padding="3dp"
+        android:paddingTop="3dp">
+
+        <RadioButton
+            android:id="@+id/laranjaId"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/cor_laranja" />
+
+        <RadioButton
+            android:id="@+id/verdeId"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cor_verde" />
+
+        <RadioButton
+            android:id="@+id/azulId"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/cor_azul" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaoSalvarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupId"
+        android:layout_centerHorizontal="true"
+        android:text="@string/botao_salvar" />
+
+</RelativeLayout>
