@@ -1,0 +1,1 @@
+Exemplo para entender como funciona o SQLite
